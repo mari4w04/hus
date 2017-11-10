@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/materialize.css">
+
+</head>
+
+<body>
+
+    <div id="slide-out" class="side-nav">
+        <ul id="categorymenu">
+             <li>
+                 <a href="index.html">Home</a>
+             </li>
+             <template id="linkTemplate">
+                 <li><a href="">Other</a></li>
+             </template>
+         </ul>
+      </div>
+
+      <div class="header">
+          <a href="#" data-activates="slide-out" class="button-collapse burger-icon"><img style="height: 55px;" src="img/menu.svg"></a>
+          <a href="index.html" class="logo-link"><img class="logo-big" src="img/huset-logo.png"></a>
+      </div>
+
+    <div class="uk-card uk-card-secondary">
+      <div class="single-event">
+            <img src="" alt="">
+            <div class="uk-card-body">
+
+                <div class="date-and-time">
+                    <span class="date"></span>
+                    <div class="place-and-time">
+                        <h1></h1>
+                        <div class="location-and-time"><span class="location"></span> at <span class="starting-time"></span></div>
+                        <div class="doors-open">Doors open at <span></span></div>
+
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="description"></div>
+
+                <div class="price">DKK <span></span></div>
+
+                <div class="button-box">
+                    <a class="facebook-link blue-btn" href="">Facebook event</a>
+                    <a class="ticket-link blue-btn" href="">Buy a ticket</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

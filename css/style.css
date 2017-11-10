@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+body{
+    background-color: #222;
+    font-family: 'Raleway', sans-serif !important;
+}
+h1{
+    font-size: 1.7em !important;
+}
+h2{
+    font-size: 1.7em !important;
+}
+.place-and-time h1{
+    font-size: 1.1em !important;
+    text-transform: uppercase;
+    margin: 0;
+}
+.description p{
+    text-align: justify;
+}
+.burger-icon{
+    font-size: 40px;
+}
+.burger-icon{
+    padding: 15px 30px;
+    color: white;
+    flex: 1;
+}
+.side-nav li > a{
+    color: white !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em !important;
+    font-weight: 700;
+    line-height: 2.5em !important;
+    height: auto !important;
+}
+.side-nav li > a:active, .side-nav li > a:focus; .side-nav li > a:hover, .side-nav li > a:visited{
+    text-decoration: none !important;
+}
+.side-nav li > a:hover {
+    background-color: rgba(0, 0, 0, 0.25) !important;
+    height: auto !important;
+}
+.side-nav{
+    background-color: #9700bc !important;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-big{
+    height: 50px;
+    widows: auto;
+}
+.logo-link{
+    flex: 4;
+}
+
+.date-and-time{
+    display: flex;
+    align-items: center;
+}
+.date{
+    font-size: 2.3em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-right: 1px solid rgba(255,255,255, 0.7);
+    height: 60px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.location-and-time{
+    font-size: 1.1em;
+}
+.place-and-time{
+    padding-left: 15px;
+    line-height: 2.5em;
+}
+.doors-open{
+    line-height: 1em;
+}
+.price{
+     font-family: 'Roboto', sans-serif;
+    background-color: #ffba0d;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+}
+hr{
+    width: 100%;
+}
+.uk-card-secondary > :not([class*='uk-card-media']) hr{
+    border-top-color: rgba(255, 255, 255, 0.7) !important;
+}
+.blue-btn{
+    background-color: #00b1f7;
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 1.05em;
+    text-transform: uppercase !important;
+    cursor: pointer !important;
+}
+.blue-btn a{
+    cursor: pointer !important;
+}
+.button-box{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+.all-events h1{
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+.all-events .date{
+    font-size: 1em;
+    height: auto;
+    padding-right: 0;
+    display: inline;
+    border-right: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+.all-events .starting-time{
+    color: rgba(255, 255, 255, 0.7);
+}
+.all-events h2{
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 1.3em !important;
+}
+.all-events h1{
+    margin-bottom: 10px;
+}
+.events-line{
+    margin-top: 40px;
+}
+.all-events .uk-card-body {
+    padding: 20px 30px;
+}
